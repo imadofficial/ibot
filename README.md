@@ -2,6 +2,13 @@
 
 This is *THE* repository that you need to improve your bot! (*Or improving mine, it depends*)
 
+## Requirements
+
+You can click these boxes to navigate to the download page.
+
+| [Python (x64)](https://www.python.org/ftp/python/3.8.2/python-3.8.2.exe)  | [Modules (Soon)](#)
+| ------------- | ------------- |
+
 ## Social Media
 
-By clicking [here](https://discord.gg/VxfkD3y), you can join the official iBot server!
+- [Discord Server](https://discord.gg/VxfkD3y)
