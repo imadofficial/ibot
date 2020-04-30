@@ -1,6 +1,6 @@
 # Official iBot repository!
 
-This is *THE* repository that you need to improve your bot! (*Or improving mine, it depends*)
+This is **THE** repository that you need to improve your bot! (*Or improving mine, it depends*)
 
 ## Requirements
 
