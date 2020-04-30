@@ -1,0 +1,500 @@
+{
+    "0x0": {
+        "identifier": "0",
+        "error_name": "ERROR_SUCCESS",
+        "meaning": "The operation completed successfully.",
+        "Troubleshoot": "N/A"
+    },
+    "0x1": {
+        "identifier": "1",
+        "error_name": "ERROR_INVALID_FUNCTION",
+        "meaning": "Incorrect function.",
+        "Troubleshoot": "N/A"
+    },
+    "0x2": {
+        "identifier": "2",
+        "error_name": "ERROR_FILE_NOT_FOUND",
+        "meaning": "The system cannot find the file specified.",
+        "Troubleshoot": "N/A"
+    },
+    "0x3": {
+        "identifier": "3",
+        "error_name": "ERROR_PATH_NOT_FOUND",
+        "meaning": "The system cannot find the path specified.",
+        "Troubleshoot": "N/A"
+    },
+    "0x4": {
+        "identifier": "4",
+        "error_name": "ERROR_TOO_MANY_OPEN_FILES",
+        "meaning": "The system cannot open the file.",
+        "Troubleshoot": "N/A"
+    },
+    "0x5": {
+        "identifier": "5",
+        "error_name": "ERROR_ACCESS_DENIED",
+        "meaning": "Access is denied.",
+        "Troubleshoot": "N/A"
+    },
+    "0x6": {
+        "identifier": "6",
+        "error_name": "ERROR_INVALID_HANDLE",
+        "meaning": "The handle is invalid.",
+        "Troubleshoot": "N/A"
+    },
+    "0x7": {
+        "identifier": "7",
+        "error_name": "ERROR_ARENA_TRASHED",
+        "meaning": "The storage control blocks were destroyed.",
+        "Troubleshoot": "N/A"
+    },
+    "0x8": {
+        "identifier": "8",
+        "error_name": "ERROR_NOT_ENOUGH_MEMORY",
+        "meaning": "Not enough storage is available to process this command.",
+        "Troubleshoot": "N/A"
+    },
+    "0x9": {
+        "identifier": "9",
+        "error_name": "ERROR_INVALID_BLOCK",
+        "meaning": "The storage control block address is invalid.",
+        "Troubleshoot": "N/A"
+    },
+    "0xA": {
+        "identifier": "10",
+        "error_name": "ERROR_BAD_ENVIRONMENT",
+        "meaning": "The environment is incorrect.",
+        "Troubleshoot": "N/A"
+    },
+    "0xB": {
+        "identifier": "11",
+        "error_name": "ERROR_BAD_FORMAT",
+        "meaning": "An attempt was made to load a program with an incorrect format.",
+        "Troubleshoot": "N/A"
+    },
+    "0xC": {
+        "identifier": "12",
+        "error_name": "ERROR_INVALID_ACCESS",
+        "meaning": "The access code is invalid.",
+        "Troubleshoot": "N/A"
+    },
+    "0xD": {
+        "identifier": "13",
+        "error_name": "ERROR_INVALID_DATA",
+        "meaning": "The data is invalid.",
+        "Troubleshoot": "N/A"
+    },
+    "0xE": {
+        "identifier": "14",
+        "error_name": "ERROR_OUTOFMEMORY",
+        "meaning": "Not enough storage is available to complete this operation.",
+        "Troubleshoot": "N/A"
+    },
+    "0xF": {
+        "identifier": "15",
+        "error_name": "ERROR_INVALID_DRIVE",
+        "meaning": "The system cannot find the drive specified.",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000001": {
+        "identifier": "N/A",
+        "error_name": "APC_INDEX_MISMATCH",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000002": {
+        "identifier": "N/A",
+        "error_name": "DEVICE_QUEUE_NOT_BUSY",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000003": {
+        "identifier": "N/A",
+        "error_name": "INVALID_AFFINITY_SET",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000004": {
+        "identifier": "N/A",
+        "error_name": "INVALID_DATA_ACCESS_TRAP",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000005": {
+        "identifier": "N/A",
+        "error_name": "INVALID_PROCESS_ATTACH_ATTEMPT",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000006": {
+        "identifier": "N/A",
+        "error_name": "INVALID_PROCESS_DETACH_ATTEMPT",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000007": {
+        "identifier": "N/A",
+        "error_name": "INVALID_SOFTWARE_INTERRUPT",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000008": {
+        "identifier": "N/A",
+        "error_name": "IRQL_NOT_DISPATCH_LEVEL",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000009": {
+        "identifier": "N/A",
+        "error_name": "IRQL_NOT_GREATER_OR_EQUAL",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000000A": {
+        "identifier": "N/A",
+        "error_name": "IRQL_NOT_LESS_OR_EQUAL",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000000B": {
+        "identifier": "N/A",
+        "error_name": "NO_EXCEPTION_HANDLING_SUPPORT",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000000C": {
+        "identifier": "N/A",
+        "error_name": "MAXIMUM_WAIT_OBJECTS_EXCEEDED",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000000D": {
+        "identifier": "N/A",
+        "error_name": "MUTEX_LEVEL_NUMBER_VIOLATION",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000000E": {
+        "identifier": "N/A",
+        "error_name": "NO_USER_MODE_CONTEXT",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000000F": {
+        "identifier": "N/A",
+        "error_name": "SPIN_LOCK_ALREADY_OWNED",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000010": {
+        "identifier": "N/A",
+        "error_name": "SPIN_LOCK_NOT_OWNED",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000011": {
+        "identifier": "N/A",
+        "error_name": "THREAD_NOT_MUTEX_OWNER",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000012": {
+        "identifier": "N/A",
+        "error_name": "TRAP_CAUSE_UNKNOWN",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000013": {
+        "identifier": "N/A",
+        "error_name": "EMPTY_THREAD_REAPER_LIST",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000014": {
+        "identifier": "N/A",
+        "error_name": "CREATE_DELETE_LOCK_NOT_LOCKED",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000015": {
+        "identifier": "N/A",
+        "error_name": "LAST_CHANCE_CALLED_FROM_KMODE",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000016": {
+        "identifier": "N/A",
+        "error_name": "CID_HANDLE_CREATION",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000017": {
+        "identifier": "N/A",
+        "error_name": "CID_HANDLE_DELETION",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000018": {
+        "identifier": "N/A",
+        "error_name": "REFERENCE_BY_POINTER",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000019": {
+        "identifier": "N/A",
+        "error_name": "BAD_POOL_HEADER",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000001A": {
+        "identifier": "N/A",
+        "error_name": "MEMORY_MANAGEMENT",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000001B": {
+        "identifier": "N/A",
+        "error_name": "PFN_SHARE_COUNT",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000001C": {
+        "identifier": "N/A",
+        "error_name": "PFN_REFERENCE_COUNT",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000001D": {
+        "identifier": "N/A",
+        "error_name": "NO_SPIN_LOCK_AVAILABLE",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000001E": {
+        "identifier": "N/A",
+        "error_name": "KMODE_EXCEPTION_NOT_HANDLED",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000001F": {
+        "identifier": "N/A",
+        "error_name": "SHARED_RESOURCE_CONV_ERROR",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000020": {
+        "identifier": "N/A",
+        "error_name": "KERNEL_APC_PENDING_DURING_EXIT",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000021": {
+        "identifier": "N/A",
+        "error_name": "QUOTA_UNDERFLOW",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000022": {
+        "identifier": "N/A",
+        "error_name": "FILE_SYSTEM",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000023": {
+        "identifier": "N/A",
+        "error_name": "FAT_FILE_SYSTEM",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000024": {
+        "identifier": "N/A",
+        "error_name": "NTFS_FILE_SYSTEM",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000025": {
+        "identifier": "N/A",
+        "error_name": "NPFS_FILE_SYSTEM",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000026": {
+        "identifier": "N/A",
+        "error_name": "CDFS_FILE_SYSTEM",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000027": {
+        "identifier": "N/A",
+        "error_name": "RDR_FILE_SYSTEM",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000028": {
+        "identifier": "N/A",
+        "error_name": "CORRUPT_ACCESS_TOKEN",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000029": {
+        "identifier": "N/A",
+        "error_name": "SECURITY_SYSTEM",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000002A": {
+        "identifier": "N/A",
+        "error_name": "INCONSISTENT_IRP",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000002B": {
+        "identifier": "N/A",
+        "error_name": "PANIC_STACK_SWITCH",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000002C": {
+        "identifier": "N/A",
+        "error_name": "PORT_DRIVER_INTERNAL",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000002D": {
+        "identifier": "N/A",
+        "error_name": "SCSI_DISK_DRIVER_INTERNAL",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000002E": {
+        "identifier": "N/A",
+        "error_name": "DATA_BUS_ERROR",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000002F": {
+        "identifier": "N/A",
+        "error_name": "INSTRUCTION_BUS_ERROR",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000030": {
+        "identifier": "N/A",
+        "error_name": "SET_OF_INVALID_CONTEXT",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000031": {
+        "identifier": "N/A",
+        "error_name": "PHASE0_INITIALIZATION_FAILED",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000032": {
+        "identifier": "N/A",
+        "error_name": "PHASE1_INITIALIZATION_FAILED",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000033": {
+        "identifier": "N/A",
+        "error_name": "UNEXPECTED_INITIALIZATION_CALL",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000034": {
+        "identifier": "N/A",
+        "error_name": "CACHE_MANAGER",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000035": {
+        "identifier": "N/A",
+        "error_name": "NO_MORE_IRP_STACK_LOCATIONS",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000036": {
+        "identifier": "N/A",
+        "error_name": "DEVICE_REFERENCE_COUNT_NOT_ZERO",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000037": {
+        "identifier": "N/A",
+        "error_name": "FLOPPY_INTERNAL_ERROR",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000038": {
+        "identifier": "N/A",
+        "error_name": "error",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000039": {
+        "identifier": "N/A",
+        "error_name": "SYSTEM_EXIT_OWNED_MUTEX",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000003A": {
+        "identifier": "N/A",
+        "error_name": "SYSTEM_UNWIND_PREVIOUS_USER",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000003B": {
+        "identifier": "N/A",
+        "error_name": "SYSTEM_SERVICE_EXCEPTION",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000003C": {
+        "identifier": "N/A",
+        "error_name": "INTERRUPT_UNWIND_ATTEMPTED",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000003D": {
+        "identifier": "N/A",
+        "error_name": "INTERRUPT_EXCEPTION_NOT_HANDLED",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000003E": {
+        "identifier": "N/A",
+        "error_name": "MULTIPROCESSOR_CONFIGURATION_NOT_SUPPORTED",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x0000003F": {
+        "identifier": "N/A",
+        "error_name": "NO_MORE_SYSTEM_PTES",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000040": {
+        "identifier": "N/A",
+        "error_name": "TARGET_MDL_TOO_SMALL",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000041": {
+        "identifier": "N/A",
+        "error_name": "MUST_SUCCEED_POOL_EMPTY",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000042": {
+        "identifier": "N/A",
+        "error_name": "ATDISK_DRIVER_INTERNAL",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000043": {
+        "identifier": "N/A",
+        "error_name": "NO_SUCH_PARTITION",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    }
+}
