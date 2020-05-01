@@ -1,498 +1,402 @@
 {
-    "0x0": {
-        "identifier": "0",
-        "error_name": "ERROR_SUCCESS",
-        "meaning": "The operation completed successfully.",
-        "Troubleshoot": "N/A"
-    },
-    "0x1": {
+    "APC_INDEX_MISMATCH": {
         "identifier": "1",
-        "error_name": "ERROR_INVALID_FUNCTION",
-        "meaning": "Incorrect function.",
+        "error_name": "0x00000001",
+        "meaning": "This BSOD means that there has been a mismatch in the APC state index.\nAlso may show the error code.",
         "Troubleshoot": "N/A"
     },
-    "0x2": {
+    "DEVICE_QUEUE_NOT_BUSY": {
         "identifier": "2",
-        "error_name": "ERROR_FILE_NOT_FOUND",
-        "meaning": "The system cannot find the file specified.",
-        "Troubleshoot": "N/A"
+        "error_name": "0x00000002",
+        "meaning": "The BSOD shows up because of incompatible hardware and software components. However, there could be other reasons why it affects a computer. It is possible that there is a missing .dll file in your system. On the other hand, you may have installed an incorrect driver, or the versions on your PC may be outdated or corrupted.",
+        "Troubleshoot": ":one: Removing the Program Associated with the Error\n:two: Using the System File Checker (CMD/Admin) `sfc /scannow`\n:three: Using the DISM Command-Line Tool (CMD/Admin) `DISM.exe /Online /Cleanup-image /Restorehealth`\n:four: Running the CHKDSK Utility (CMD/Admin) `Chkdsk /f /C:`\n:five: Updating your Device Drivers"
     },
-    "0x3": {
+    "INVALID_AFFINITY_SET": {
         "identifier": "3",
-        "error_name": "ERROR_PATH_NOT_FOUND",
-        "meaning": "The system cannot find the path specified.",
+        "error_name": "0x00000003",
+        "meaning": "As a part of distinction, INVALID AFFINITY SET error in Windows 10 has a bug check value of 0x00000003. Like most other similar stop codes, this Blue Screen of Death also occurs because of Software moreover Hardware issues.",
         "Troubleshoot": "N/A"
     },
-    "0x4": {
+    "INVALID_DATA_ACCESS_TRAP": {
         "identifier": "4",
-        "error_name": "ERROR_TOO_MANY_OPEN_FILES",
-        "meaning": "The system cannot open the file.",
-        "Troubleshoot": "N/A"
-    },
-    "0x5": {
-        "identifier": "5",
-        "error_name": "ERROR_ACCESS_DENIED",
-        "meaning": "Access is denied.",
-        "Troubleshoot": "N/A"
-    },
-    "0x6": {
-        "identifier": "6",
-        "error_name": "ERROR_INVALID_HANDLE",
-        "meaning": "The handle is invalid.",
-        "Troubleshoot": "N/A"
-    },
-    "0x7": {
-        "identifier": "7",
-        "error_name": "ERROR_ARENA_TRASHED",
-        "meaning": "The storage control blocks were destroyed.",
-        "Troubleshoot": "N/A"
-    },
-    "0x8": {
-        "identifier": "8",
-        "error_name": "ERROR_NOT_ENOUGH_MEMORY",
-        "meaning": "Not enough storage is available to process this command.",
-        "Troubleshoot": "N/A"
-    },
-    "0x9": {
-        "identifier": "9",
-        "error_name": "ERROR_INVALID_BLOCK",
-        "meaning": "The storage control block address is invalid.",
-        "Troubleshoot": "N/A"
-    },
-    "0xA": {
-        "identifier": "10",
-        "error_name": "ERROR_BAD_ENVIRONMENT",
-        "meaning": "The environment is incorrect.",
-        "Troubleshoot": "N/A"
-    },
-    "0xB": {
-        "identifier": "11",
-        "error_name": "ERROR_BAD_FORMAT",
-        "meaning": "An attempt was made to load a program with an incorrect format.",
-        "Troubleshoot": "N/A"
-    },
-    "0xC": {
-        "identifier": "12",
-        "error_name": "ERROR_INVALID_ACCESS",
-        "meaning": "The access code is invalid.",
-        "Troubleshoot": "N/A"
-    },
-    "0xD": {
-        "identifier": "13",
-        "error_name": "ERROR_INVALID_DATA",
-        "meaning": "The data is invalid.",
-        "Troubleshoot": "N/A"
-    },
-    "0xE": {
-        "identifier": "14",
-        "error_name": "ERROR_OUTOFMEMORY",
-        "meaning": "Not enough storage is available to complete this operation.",
-        "Troubleshoot": "N/A"
-    },
-    "0xF": {
-        "identifier": "15",
-        "error_name": "ERROR_INVALID_DRIVE",
-        "meaning": "The system cannot find the drive specified.",
-        "Troubleshoot": "N/A"
-    },
-    "0x00000001": {
-        "identifier": "N/A",
-        "error_name": "APC_INDEX_MISMATCH",
-        "meaning": "N/A",
-        "Troubleshoot": "N/A"
-    },
-    "0x00000002": {
-        "identifier": "N/A",
-        "error_name": "DEVICE_QUEUE_NOT_BUSY",
-        "meaning": "N/A",
-        "Troubleshoot": "N/A"
-    },
-    "0x00000003": {
-        "identifier": "N/A",
-        "error_name": "INVALID_AFFINITY_SET",
-        "meaning": "N/A",
-        "Troubleshoot": "N/A"
-    },
-    "0x00000004": {
-        "identifier": "N/A",
-        "error_name": "INVALID_DATA_ACCESS_TRAP",
-        "meaning": "N/A",
-        "Troubleshoot": "N/A"
+        "error_name": "0x00000004",
+        "meaning": "This can happen when you install new hardware or driver. The INVALID_DATA_ACCESS_TRAP appears during program installation. This can be a conflict between various things.\nFor example, your app is installing; a driver is being loaded, Windows is starting up or shut down simultaneously. There are many causes for the BSOD error.\nSome of them are corrupted device drivers, corruption in the Windows registry, driver conflict, Error 0x4 caused by a broken hard disk, RAM corruption, etc.",
+        "Troubleshoot": ":one: Update all your PC drivers, including the system drivers like.Net package, etc.\n:two: Uninstall any new software and reinstall it and update the drivers for it, if necessary.\n:three: Check hardware corruption using the command chkdsk /f or any other interface tool.\n:four: Remove the RAM from the slot and clean the golden edges with a dry clean cloth and reinsert it and see."
     },
     "0x00000005": {
-        "identifier": "N/A",
+        "identifier": "5",
         "error_name": "INVALID_PROCESS_ATTACH_ATTEMPT",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000006": {
-        "identifier": "N/A",
+        "identifier": "6",
         "error_name": "INVALID_PROCESS_DETACH_ATTEMPT",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000007": {
-        "identifier": "N/A",
+        "identifier": "7",
         "error_name": "INVALID_SOFTWARE_INTERRUPT",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000008": {
-        "identifier": "N/A",
+        "identifier": "8",
         "error_name": "IRQL_NOT_DISPATCH_LEVEL",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000009": {
-        "identifier": "N/A",
+        "identifier": "9",
         "error_name": "IRQL_NOT_GREATER_OR_EQUAL",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000000A": {
-        "identifier": "N/A",
+        "identifier": "10",
         "error_name": "IRQL_NOT_LESS_OR_EQUAL",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000000B": {
-        "identifier": "N/A",
+        "identifier": "11",
         "error_name": "NO_EXCEPTION_HANDLING_SUPPORT",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000000C": {
-        "identifier": "N/A",
+        "identifier": "12",
         "error_name": "MAXIMUM_WAIT_OBJECTS_EXCEEDED",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000000D": {
-        "identifier": "N/A",
+        "identifier": "13",
         "error_name": "MUTEX_LEVEL_NUMBER_VIOLATION",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000000E": {
-        "identifier": "N/A",
+        "identifier": "14",
         "error_name": "NO_USER_MODE_CONTEXT",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000000F": {
-        "identifier": "N/A",
+        "identifier": "15",
         "error_name": "SPIN_LOCK_ALREADY_OWNED",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000010": {
-        "identifier": "N/A",
+        "identifier": "16",
         "error_name": "SPIN_LOCK_NOT_OWNED",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000011": {
-        "identifier": "N/A",
+        "identifier": "17",
         "error_name": "THREAD_NOT_MUTEX_OWNER",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000012": {
-        "identifier": "N/A",
+        "identifier": "18",
         "error_name": "TRAP_CAUSE_UNKNOWN",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000013": {
-        "identifier": "N/A",
+        "identifier": "19",
         "error_name": "EMPTY_THREAD_REAPER_LIST",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000014": {
-        "identifier": "N/A",
+        "identifier": "20",
         "error_name": "CREATE_DELETE_LOCK_NOT_LOCKED",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000015": {
-        "identifier": "N/A",
+        "identifier": "21",
         "error_name": "LAST_CHANCE_CALLED_FROM_KMODE",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000016": {
-        "identifier": "N/A",
+        "identifier": "22",
         "error_name": "CID_HANDLE_CREATION",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000017": {
-        "identifier": "N/A",
+        "identifier": "23",
         "error_name": "CID_HANDLE_DELETION",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000018": {
-        "identifier": "N/A",
+        "identifier": "24",
         "error_name": "REFERENCE_BY_POINTER",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000019": {
-        "identifier": "N/A",
+        "identifier": "25",
         "error_name": "BAD_POOL_HEADER",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000001A": {
-        "identifier": "N/A",
+        "identifier": "26",
         "error_name": "MEMORY_MANAGEMENT",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000001B": {
-        "identifier": "N/A",
+        "identifier": "27",
         "error_name": "PFN_SHARE_COUNT",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000001C": {
-        "identifier": "N/A",
+        "identifier": "28",
         "error_name": "PFN_REFERENCE_COUNT",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000001D": {
-        "identifier": "N/A",
+        "identifier": "29",
         "error_name": "NO_SPIN_LOCK_AVAILABLE",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000001E": {
-        "identifier": "N/A",
+        "identifier": "30",
         "error_name": "KMODE_EXCEPTION_NOT_HANDLED",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000001F": {
-        "identifier": "N/A",
+        "identifier": "31",
         "error_name": "SHARED_RESOURCE_CONV_ERROR",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000020": {
-        "identifier": "N/A",
+        "identifier": "32",
         "error_name": "KERNEL_APC_PENDING_DURING_EXIT",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000021": {
-        "identifier": "N/A",
+        "identifier": "33",
         "error_name": "QUOTA_UNDERFLOW",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000022": {
-        "identifier": "N/A",
+        "identifier": "34",
         "error_name": "FILE_SYSTEM",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000023": {
-        "identifier": "N/A",
+        "identifier": "35",
         "error_name": "FAT_FILE_SYSTEM",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
-    "0x00000024": {
-        "identifier": "N/A",
-        "error_name": "NTFS_FILE_SYSTEM",
-        "meaning": "N/A",
-        "Troubleshoot": "N/A"
+    "NTFS_FILE_SYSTEM": {
+        "identifier": "36",
+        "error_name": "0x00000024",
+        "meaning": "It indicates a possible disk file-system corruption and most likely caused by failing sectors of your hard-disk. This is related to the NTFS file system. To further not kill your PC, the automatic mechanism shutdowns your computer.\n** **\nThe problem occurs in the NTFS.SYS file. This is a driver file that allows the PC to read and write from the NTFS file system. Even if you have FAT32 or FAT16 systems, you can get a read error.",
+        "Troubleshoot": ":one: Check hard disk corruption using the command `CHKDSK /F`, answering the prompt messages.\n:two: Run a disk defragmentation tool available inside Windows. You can also try repairing individual slots on your Hard Disk using the software.\n:three: Reinstall Windows using an ISO or a CD-ROM disk."
     },
     "0x00000025": {
-        "identifier": "N/A",
+        "identifier": "37",
         "error_name": "NPFS_FILE_SYSTEM",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000026": {
-        "identifier": "N/A",
+        "identifier": "38",
         "error_name": "CDFS_FILE_SYSTEM",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000027": {
-        "identifier": "N/A",
+        "identifier": "39",
         "error_name": "RDR_FILE_SYSTEM",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000028": {
-        "identifier": "N/A",
+        "identifier": "40",
         "error_name": "CORRUPT_ACCESS_TOKEN",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000029": {
-        "identifier": "N/A",
+        "identifier": "41",
         "error_name": "SECURITY_SYSTEM",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000002A": {
-        "identifier": "N/A",
+        "identifier": "42",
         "error_name": "INCONSISTENT_IRP",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000002B": {
-        "identifier": "N/A",
+        "identifier": "43",
         "error_name": "PANIC_STACK_SWITCH",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000002C": {
-        "identifier": "N/A",
+        "identifier": "44",
         "error_name": "PORT_DRIVER_INTERNAL",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000002D": {
-        "identifier": "N/A",
+        "identifier": "45",
         "error_name": "SCSI_DISK_DRIVER_INTERNAL",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
-    "0x0000002E": {
-        "identifier": "N/A",
-        "error_name": "DATA_BUS_ERROR",
-        "meaning": "N/A",
-        "Troubleshoot": "N/A"
+    "DATA_BUS_ERROR": {
+        "identifier": "46",
+        "error_name": "0x0000002E",
+        "meaning": "In general cases, the error could be due to:\n:one: corrupted hardware\n:two: Compatibility problem of hardware devices and OS.\n:three: faulty configuration\n** **\nThe main causes could be\n:one: BAD RAM\n:two: L2, L3, etc. kind memory cache errors\n:three: flash drive, SSD, USB card kind of errors.",
+        "Troubleshoot": ":one: First, remove the newly installed hardware devices and restart. See if that removes it. Then you need to avoid that hardware or repair it.\n:two: Also, make sure RAM, etc. fit correctly in the connectors. Check the loose cables etc.\n:three: If its a new PC, then install the latest version of BIOS and updates for the SCSI controller.\n:four: Also, check for faulty hard-drive."
     },
     "0x0000002F": {
-        "identifier": "N/A",
+        "identifier": "47",
         "error_name": "INSTRUCTION_BUS_ERROR",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000030": {
-        "identifier": "N/A",
+        "identifier": "48",
         "error_name": "SET_OF_INVALID_CONTEXT",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000031": {
-        "identifier": "N/A",
+        "identifier": "49",
         "error_name": "PHASE0_INITIALIZATION_FAILED",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000032": {
-        "identifier": "N/A",
+        "identifier": "50",
         "error_name": "PHASE1_INITIALIZATION_FAILED",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000033": {
-        "identifier": "N/A",
+        "identifier": "51",
         "error_name": "UNEXPECTED_INITIALIZATION_CALL",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000034": {
-        "identifier": "N/A",
+        "identifier": "52",
         "error_name": "CACHE_MANAGER",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000035": {
-        "identifier": "N/A",
+        "identifier": "53",
         "error_name": "NO_MORE_IRP_STACK_LOCATIONS",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000036": {
-        "identifier": "N/A",
+        "identifier": "54",
         "error_name": "DEVICE_REFERENCE_COUNT_NOT_ZERO",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000037": {
-        "identifier": "N/A",
+        "identifier": "55",
         "error_name": "FLOPPY_INTERNAL_ERROR",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000038": {
-        "identifier": "N/A",
+        "identifier": "56",
         "error_name": "error",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000039": {
-        "identifier": "N/A",
+        "identifier": "57",
         "error_name": "SYSTEM_EXIT_OWNED_MUTEX",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000003A": {
-        "identifier": "N/A",
+        "identifier": "58",
         "error_name": "SYSTEM_UNWIND_PREVIOUS_USER",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000003B": {
-        "identifier": "N/A",
+        "identifier": "59",
         "error_name": "SYSTEM_SERVICE_EXCEPTION",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000003C": {
-        "identifier": "N/A",
+        "identifier": "60",
         "error_name": "INTERRUPT_UNWIND_ATTEMPTED",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000003D": {
-        "identifier": "N/A",
+        "identifier": "61",
         "error_name": "INTERRUPT_EXCEPTION_NOT_HANDLED",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000003E": {
-        "identifier": "N/A",
+        "identifier": "62",
         "error_name": "MULTIPROCESSOR_CONFIGURATION_NOT_SUPPORTED",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x0000003F": {
-        "identifier": "N/A",
+        "identifier": "63",
         "error_name": "NO_MORE_SYSTEM_PTES",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000040": {
-        "identifier": "N/A",
+        "identifier": "64",
         "error_name": "TARGET_MDL_TOO_SMALL",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000041": {
-        "identifier": "N/A",
+        "identifier": "65",
         "error_name": "MUST_SUCCEED_POOL_EMPTY",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000042": {
-        "identifier": "N/A",
+        "identifier": "66",
         "error_name": "ATDISK_DRIVER_INTERNAL",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
     "0x00000043": {
-        "identifier": "N/A",
+        "identifier": "67",
         "error_name": "NO_SUCH_PARTITION",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
