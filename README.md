@@ -12,3 +12,4 @@ You can click these boxes to navigate to the download page.
 ## Social Media
 
 - [Discord Server](https://discord.gg/VxfkD3y)
+- Website (Soon)
