@@ -2,7 +2,8 @@
     "APC_INDEX_MISMATCH": {
         "identifier": "1",
         "error_name": "0x00000001",
-        "meaning": "This BSOD means that there has been a mismatch in the APC state index.\nAlso may show the error code.",
+        "meaning": "The most common cause of this bug check is when a file system or driver has a mismatched sequence of calls to disable and re-enable APCs. The key data item is the Thread >CombinedApcDisable field. The CombinedApcDisable field consists of two separate 16-bit fields: SpecialApcDisable and KernelApcDisable. A negative value of either field indicates that a driver has disabled special or normal APCs (respectively) without re-enabling them. A positive value indicates that a driver has enabled special or normal APCs too many times.",
+        "Parameters": "This BSOD means that there has been a mismatch in the APC state index.\nAlso may show the error code.",
         "Troubleshoot": "N/A"
     },
     "DEVICE_QUEUE_NOT_BUSY": {
@@ -23,10 +24,10 @@
         "meaning": "This can happen when you install new hardware or driver. The INVALID_DATA_ACCESS_TRAP appears during program installation. This can be a conflict between various things.\nFor example, your app is installing; a driver is being loaded, Windows is starting up or shut down simultaneously. There are many causes for the BSOD error.\nSome of them are corrupted device drivers, corruption in the Windows registry, driver conflict, Error 0x4 caused by a broken hard disk, RAM corruption, etc.",
         "Troubleshoot": ":one: Update all your PC drivers, including the system drivers like.Net package, etc.\n:two: Uninstall any new software and reinstall it and update the drivers for it, if necessary.\n:three: Check hardware corruption using the command chkdsk /f or any other interface tool.\n:four: Remove the RAM from the slot and clean the golden edges with a dry clean cloth and reinsert it and see."
     },
-    "0x00000005": {
+    "INVALID_PROCESS_ATTACH_ATTEMPT": {
         "identifier": "5",
-        "error_name": "INVALID_PROCESS_ATTACH_ATTEMPT",
-        "meaning": "N/A",
+        "error_name": "0x00000005",
+        "meaning": "The INVALID_PROCESS_ATTACH_ATTEMPT bug check has a value of 0x00000005. This generally indicates that the thread was attached to a process in a situation where that is not allowed. For example, this bug check could occur if KeAttachProcess was called when the thread was already attached to a process (which is illegal), or if the thread returned from certain function calls in an attached state (which is invalid)",
         "Troubleshoot": "N/A"
     },
     "0x00000006": {
@@ -347,11 +348,11 @@
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
-    "0x0000003B": {
+    "SYSTEM_SERVICE_EXCEPTION": {
         "identifier": "59",
-        "error_name": "SYSTEM_SERVICE_EXCEPTION",
+        "error_name": "0x0000003B",
         "meaning": "N/A",
-        "Troubleshoot": "N/A"
+        "Troubleshoot": "https://support.microsoft.com/en-us/help/14238/windows-10-troubleshoot-blue-screen-errors"
     },
     "0x0000003C": {
         "identifier": "60",
@@ -392,6 +393,12 @@
     "0x00000042": {
         "identifier": "66",
         "error_name": "ATDISK_DRIVER_INTERNAL",
+        "meaning": "N/A",
+        "Troubleshoot": "N/A"
+    },
+    "0x00000043": {
+        "identifier": "67",
+        "error_name": "NO_SUCH_PARTITION",
         "meaning": "N/A",
         "Troubleshoot": "N/A"
     },
