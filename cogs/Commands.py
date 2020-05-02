@@ -1,4 +1,3 @@
-
 import discord
 from discord.ext import commands
 from datetime import datetime
@@ -10,11 +9,11 @@ import random
 import inspect
 import base64
 import praw
-import qrcode
+import psutil
 
 start_time = time.time()
-version = 0.12
-build = 44
+version = 0.13
+build = 53
 
 class Commands(commands.Cog):
 
@@ -35,19 +34,6 @@ class Commands(commands.Cog):
         embed.set_thumbnail(url=self.bot.user.avatar_url)
         embed.set_footer(text=f'{ctx.message.author.name}', icon_url=ctx.message.author.avatar_url)
         embed.timestamp = datetime.datetime.now()
-        await ctx.send(embed=embed)
-    
-    @commands.command(name='bot')
-    async def bot(self, ctx):
-        servers = str(len(self.bot.guilds))
-        users = 0
-        for guild in self.bot.guilds:
-            users += len(guild.members)
-        channels = str(len(set(self.bot.get_all_channels())))
-        embed = discord.Embed(Description="Some current stats for Spectrum")
-        embed.add_field(name="Server count:", value=servers, inline=False)
-        embed.add_field(name="Users bot can see:", value=str(users), inline=False)
-        embed.add_field(name="Channels bot can see:", value=channels, inline=False)
         await ctx.send(embed=embed)
 
     @commands.command(aliases=["invitelink"])
@@ -111,6 +97,11 @@ class Commands(commands.Cog):
     
     @commands.command(aliases=["botver","verbot","bver","botinfo", "about"])
     async def botversion(self, ctx):
+        servers = str(len(self.bot.guilds))
+        users = 0
+        for guild in self.bot.guilds:
+            users += len(guild.members)
+        channels = str(len(set(self.bot.get_all_channels())))
         current_time = time.time()
         difference = int(round(current_time - start_time))
         uptime = str(datetime.timedelta(seconds=difference))
@@ -119,6 +110,11 @@ class Commands(commands.Cog):
         embed.add_field(name="Bot version", value=f"`{version}, build {build}`",inline=True)
         embed.add_field(name="1st Release Date", value="`March 7th 2020`",inline=True)
         embed.add_field(name="Uptime", value=f"`{uptime}`",inline=True)
+        embed.add_field(name='Memory Usage (In %)', value=psutil.virtual_memory()[2], inline=True)
+        embed.add_field(name='CPU Usage (In %)', value=psutil.cpu_percent(), inline=True)
+        embed.add_field(name="Server count:", value=servers, inline=True)
+        embed.add_field(name="Users bot can see:", value=str(users), inline=True)
+        embed.add_field(name="Channels bot can see:", value=channels, inline=True)
         embed.set_footer(text=f'{ctx.message.author.name}', icon_url=ctx.message.author.avatar_url)
         embed.timestamp = datetime.datetime.now()
         embed.set_thumbnail(url=self.bot.user.avatar_url)

@@ -59,16 +59,6 @@ class OwnerCommands(commands.Cog):
     
     @owner.command()
     @commands.check(user_is_owner)
-    async def status(self, ctx):
-        embed = discord.Embed(title="VM Status:")
-        embed.add_field(name='Memory Usage (In %)', value=psutil.virtual_memory()[2], inline=False)
-        embed.add_field(name='CPU Usage (In %)', value=psutil.cpu_percent(), inline=False)
-        embed.set_footer(text=f'{ctx.message.author.name}', icon_url=ctx.message.author.avatar_url)
-        embed.timestamp = datetime.datetime.now()
-        await ctx.send(embed=embed)
-    
-    @owner.command()
-    @commands.check(user_is_owner)
     async def team(self, ctx):
         embed = discord.Embed(title="iBot Owner team!")
         embed.add_field(name='Amount: 4', value="1) Imad (Added: N/A ago)\n2) Dudefox (Added N/A ago)\n3) Julia (Added N/A ago)\n4) Sapphire (Added on Apr 11, 2020)", inline=False)
